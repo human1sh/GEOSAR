@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Caches and test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large geospatial datasets (do not commit raw imagery to GitHub)
+data/
+
+# Intermediate pipeline outputs and models
+outputs/
+*.onnx
+*.onnx.data
+*.data
+
+# Keep publication figures committed
+!results/
+!results/*.png

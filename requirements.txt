@@ -1,0 +1,12 @@
+numpy
+pandas
+opencv-python
+rasterio
+geopandas
+shapely
+torch
+onnx
+onnxruntime
+streamlit
+pytest
+matplotlib
